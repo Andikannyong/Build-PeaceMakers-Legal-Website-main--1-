@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeaceMakers Legal Consultancy | Professional Legal Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Additional icon library for more sophisticated icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <div class="top-bar-info">
+                        <span><i class="ri-map-pin-2-line"></i> 123 Justice Avenue, Lawson City</span>
+                        <span><i class="ri-phone-line"></i> (123) 456-7890</span>
+                    </div>
+                    <div class="top-bar-social">
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <button class="schedule-consultation-btn">
+                            <i class="ri-calendar-check-line"></i> Schedule Consultation
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <div class="container">
+                <div class="nav-container">
+                    <!-- Logo -->
+                    <div class="logo-container">
+                        <a href="index.html" class="logo">
+                            <div class="logo-icon">
+                                <i class="ri-scales-3-line"></i>
+                            </div>
+                            <div class="logo-text">
+                                <h1 class="firm-name">Peace<span class="accent">Makers</span></h1>
+                                <p class="firm-tagline">Legal Consultancy</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Desktop Navigation -->
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">
+                                <span class="nav-icon"><i class="ri-home-4-line"></i></span>
+                                <span class="nav-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">
+                                <span class="nav-icon"><i class="ri-building-2-line"></i></span>
+                                <span class="nav-text">About Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="services.html" class="nav-link">
+                                <span class="nav-icon"><i class="ri-briefcase-4-line"></i></span>
+                                <span class="nav-text">Services</span>
+                                <i class="ri-arrow-down-s-line dropdown-arrow"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html#civil">Civil Litigation</a></li>
+                                <li><a href="services.html#corporate">Corporate Law</a></li>
+                                <li><a href="services.html#family">Family Law</a></li>
+                                <li><a href="services.html#criminal">Criminal Defense</a></li>
+                                <li><a href="services.html#consultation">Legal Consultation</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="team.html" class="nav-link">
+                                <span class="nav-icon"><i class="ri-team-line"></i></span>
+                                <span class="nav-text">Our Team</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                <span class="nav-icon"><i class="ri-mail-line"></i></span>
+                                <span class="nav-text">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Call to Action Button -->
+                    <div class="nav-cta">
+                        <a href="contact.html" class="cta-button">
+                            <i class="ri-phone-line"></i>
+                            <span>Free Consultation</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                        <span class="toggle-line"></span>
+                        <span class="toggle-line"></span>
+                        <span class="toggle-line"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-header">
+                <div class="mobile-logo">
+                    <i class="ri-scales-3-line"></i>
+                    <span>PeaceMakers Legal</span>
+                </div>
+                <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+            <ul class="mobile-nav-menu">
+                <li>
+                    <a href="index.html" class="mobile-nav-link active">
+                        <i class="ri-home-4-line"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" class="mobile-nav-link">
+                        <i class="ri-building-2-line"></i>
+                        About Us
+                    </a>
+                </li>
+                <li class="mobile-dropdown">
+                    <a href="services.html" class="mobile-nav-link">
+                        <i class="ri-briefcase-4-line"></i>
+                        Services
+                        <i class="ri-arrow-down-s-line mobile-dropdown-arrow"></i>
+                    </a>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="services.html#civil"><i class="ri-gavel-line"></i> Civil Litigation</a></li>
+                        <li><a href="services.html#corporate"><i class="ri-bank-line"></i> Corporate Law</a></li>
+                        <li><a href="services.html#family"><i class="ri-heart-line"></i> Family Law</a></li>
+                        <li><a href="services.html#criminal"><i class="ri-shield-check-line"></i> Criminal Defense</a></li>
+                        <li><a href="services.html#consultation"><i class="ri-chat-3-line"></i> Legal Consultation</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="team.html" class="mobile-nav-link">
+                        <i class="ri-team-line"></i>
+                        Our Team
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="mobile-nav-link">
+                        <i class="ri-mail-line"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-menu-footer">
+                <a href="contact.html" class="mobile-cta-button">
+                    <i class="ri-phone-line"></i>
+                    Free Consultation
+                </a>
+                <div class="mobile-contact-info">
+                    <p><i class="ri-map-pin-2-line"></i> 123 Justice Avenue, Lawson City</p>
+                    <p><i class="ri-phone-line"></i> (123) 456-7890</p>
+                    <p><i class="ri-mail-line"></i> contact@peacemakerslegal.com</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section will go here -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="ri-award-line"></i>
+                        <span>Trusted Since 1998</span>
+                    </div>
+                    <h1 class="hero-title">Expert Legal Counsel <span class="highlight">You Can Trust</span></h1>
+                    <p class="hero-subtitle">Providing strategic legal solutions with integrity, precision, and a commitment to justice for over 25 years.</p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="ri-calendar-check-line"></i>
+                            Schedule Consultation
+                        </a>
+                        <a href="services.html" class="btn btn-secondary">
+                            <i class="ri-book-open-line"></i>
+                            Explore Our Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <i class="ri-arrow-down-line"></i>
+            </div>
+        </section>
+    </main>
+
+<!-- Add this after the hero section in your index.html -->
+
+<!-- Stats Section -->
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">
+                    <span class="counter" data-target="25">0</span>+
+                </div>
+                <div class="stat-content">
+                    <h4>Years Experience</h4>
+                    <p>Dedicated legal expertise</p>
+                </div>
+                <div class="stat-icon">
+                    <i class="ri-history-line"></i>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-number">
+                    <span class="counter" data-target="1500">0</span>+
+                </div>
+                <div class="stat-content">
+                    <h4>Cases Won</h4>
+                    <p>Successful resolutions</p>
+                </div>
+                <div class="stat-icon">
+                    <i class="ri-award-line"></i>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-number">
+                    <span class="counter" data-target="98">0</span>%
+                </div>
+                <div class="stat-content">
+                    <h4>Client Satisfaction</h4>
+                    <p>Exceeding expectations</p>
+                </div>
+                <div class="stat-icon">
+                    <i class="ri-user-heart-line"></i>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-number">
+                    <span class="counter" data-target="50">0</span>+
+                </div>
+                <div class="stat-content">
+                    <h4>Legal Experts</h4>
+                    <p>Specialized attorneys</p>
+                </div>
+                <div class="stat-icon">
+                    <i class="ri-team-line"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section section-padding">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">About Our Firm</span>
+            </div>
+            <br>
+            <h2 class="section-title">Excellence in Legal <span class="accent-text">Representation</span></h2>
+            <p class="section-subtitle">Committed to delivering strategic legal solutions with integrity and precision</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image-container">
+                <div class="image-wrapper">
+                    <div class="main-image">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="PeaceMakers Legal Team">
+                    </div>
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="ri-scales-3-line"></i>
+                            <h4>Trusted Since 1998</h4>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <span>25+</span>
+                        <p>Years of Excellence</p>
+                    </div>
+                </div>
+                <div class="image-pattern">
+                    <div class="pattern-dot"></div>
+                    <div class="pattern-dot"></div>
+                    <div class="pattern-dot"></div>
+                    <div class="pattern-dot"></div>
+                    <div class="pattern-dot"></div>
+                </div>
+            </div>
+
+            <div class="about-text-container">
+                <div class="about-intro">
+                    <h3>Your Trusted Legal Partners</h3>
+                    <p>PeaceMakers Legal Consultancy stands at the forefront of legal excellence, combining decades of experience with innovative approaches to deliver exceptional results for our clients.</p>
+                </div>
+
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="ri-shield-check-line"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Client-Focused Approach</h4>
+                            <p>We prioritize understanding your unique needs and crafting personalized legal strategies that align with your objectives.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="ri-lightbulb-flash-line"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Strategic Excellence</h4>
+                            <p>Our attorneys employ innovative thinking and meticulous preparation to achieve optimal outcomes in complex legal matters.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="ri-hand-heart-line"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Ethical Practice</h4>
+                            <p>We maintain the highest ethical standards, ensuring transparent communication and integrity in all our representations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-quote">
+                    <div class="quote-icon">
+                        <i class="ri-double-quotes-l"></i>
+                    </div>
+                    <p>"Our commitment extends beyond legal expertise—we build lasting relationships founded on trust, respect, and exceptional service."</p>
+                    <div class="quote-author">
+                        <h5>Sarah Williamson</h5>
+                        <span>Managing Partner</span>
+                    </div>
+                </div>
+
+                <div class="about-cta">
+                    <a href="about.html" class="btn btn-outline">
+                        <span>Learn More About Us</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="ri-calendar-check-line"></i>
+                        <span>Schedule Consultation</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Values Section -->
+<section class="values-section bg-light">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">Our Values</span>
+            </div>
+            <br>
+            <h2 class="section-title">The Pillars of Our <span class="accent-text">Practice</span></h2>
+        </div>
+
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="value-icon-wrapper">
+                    <div class="value-icon">
+                        <i class="ri-scale-3-line"></i>
+                    </div>
+                    <div class="value-number">01</div>
+                </div>
+                <h3>Integrity</h3>
+                <p>We uphold the highest ethical standards in all our interactions, ensuring transparency and honesty in every case we handle.</p>
+                <div class="value-decoration">
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon-wrapper">
+                    <div class="value-icon">
+                        <i class="ri-focus-3-line"></i>
+                    </div>
+                    <div class="value-number">02</div>
+                </div>
+                <h3>Excellence</h3>
+                <p>Our pursuit of legal excellence drives us to deliver exceptional results through meticulous preparation and innovative strategies.</p>
+                <div class="value-decoration">
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon-wrapper">
+                    <div class="value-icon">
+                        <i class="ri-user-voice-line"></i>
+                    </div>
+                    <div class="value-number">03</div>
+                </div>
+                <h3>Client Focus</h3>
+                <p>We prioritize understanding our clients' unique needs and provide personalized attention to achieve their legal objectives.</p>
+                <div class="value-decoration">
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon-wrapper">
+                    <div class="value-icon">
+                        <i class="ri-community-line"></i>
+                    </div>
+                    <div class="value-number">04</div>
+                </div>
+                <h3>Collaboration</h3>
+                <p>We believe in the power of teamwork, combining diverse expertise to develop comprehensive legal solutions.</p>
+                <div class="value-decoration">
+                    <span class="decoration-line"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Add this after the values section in your index.html -->
+
+<!-- Services Section -->
+<section class="services-section section-padding">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">Our Services</span>
+            </div>
+            <br>
+            <h2 class="section-title">Comprehensive Legal <span class="accent-text">Solutions</span></h2>
+            <p class="section-subtitle">Specialized legal services tailored to meet your unique needs with precision and expertise</p>
+        </div>
+
+        <!-- Services Navigation Tabs -->
+        <div class="services-navigation">
+            <div class="services-tabs">
+                <button class="tab-btn active" data-tab="civil">
+                    <i class="ri-gavel-line"></i>
+                    <span>Civil Litigation</span>
+                </button>
+                <button class="tab-btn" data-tab="corporate">
+                    <i class="ri-bank-line"></i>
+                    <span>Corporate Law</span>
+                </button>
+                <button class="tab-btn" data-tab="family">
+                    <i class="ri-heart-line"></i>
+                    <span>Family Law</span>
+                </button>
+                <button class="tab-btn" data-tab="criminal">
+                    <i class="ri-shield-check-line"></i>
+                    <span>Criminal Defense</span>
+                </button>
+                <button class="tab-btn" data-tab="consultation">
+                    <i class="ri-chat-3-line"></i>
+                    <span>Consultation</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Services Content -->
+        <div class="services-content">
+            <!-- Civil Litigation -->
+            <div class="service-tab-content active" id="civil">
+                <div class="service-detail">
+                    <div class="service-image">
+                        <div class="image-frame">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Civil Litigation">
+                            <div class="image-badge">
+                                <i class="ri-gavel-line"></i>
+                                <span>Expert Representation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-header">
+                            <h3>Civil Litigation</h3>
+                            <div class="service-rating">
+                                <div class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                                <span>4.8/5 Client Rating</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Our civil litigation team provides aggressive representation in disputes ranging from contract breaches to complex commercial litigation. We develop strategic approaches to achieve favorable outcomes.
+                        </p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Contract Disputes Resolution</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Commercial Litigation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Property Disputes</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Employment Law Matters</span>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#civil" class="btn btn-outline">
+                                <span>Learn More</span>
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                            <a href="contact.html" class="btn btn-primary">
+                                <i class="ri-calendar-check-line"></i>
+                                <span>Schedule Consultation</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Corporate Law -->
+            <div class="service-tab-content" id="corporate">
+                <div class="service-detail">
+                    <div class="service-image">
+                        <div class="image-frame">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Corporate Law">
+                            <div class="image-badge">
+                                <i class="ri-bank-line"></i>
+                                <span>Business Law</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-header">
+                            <h3>Corporate Law</h3>
+                            <div class="service-rating">
+                                <div class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <span>5.0/5 Client Rating</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Comprehensive legal guidance for businesses of all sizes. From entity formation to complex M&A transactions, we provide strategic counsel to help your business thrive in today's competitive landscape.
+                        </p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Business Formation & Structuring</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Mergers & Acquisitions</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Contract Drafting & Review</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Regulatory Compliance</span>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#corporate" class="btn btn-outline">
+                                <span>Learn More</span>
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                            <a href="contact.html" class="btn btn-primary">
+                                <i class="ri-calendar-check-line"></i>
+                                <span>Schedule Consultation</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Family Law -->
+            <div class="service-tab-content" id="family">
+                <div class="service-detail">
+                    <div class="service-image">
+                        <div class="image-frame">
+                            <img src="https://images.unsplash.com/photo-1511735111819-9a3f7709049c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Family Law">
+                            <div class="image-badge">
+                                <i class="ri-heart-line"></i>
+                                <span>Family Matters</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-header">
+                            <h3>Family Law</h3>
+                            <div class="service-rating">
+                                <div class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                                <span>4.7/5 Client Rating</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Compassionate legal guidance through life's most challenging transitions. Our family law attorneys handle sensitive matters with discretion and care, prioritizing your family's best interests.
+                        </p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Divorce & Separation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Child Custody & Support</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Prenuptial Agreements</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Adoption Services</span>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#family" class="btn btn-outline">
+                                <span>Learn More</span>
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                            <a href="contact.html" class="btn btn-primary">
+                                <i class="ri-calendar-check-line"></i>
+                                <span>Schedule Consultation</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Criminal Defense -->
+            <div class="service-tab-content" id="criminal">
+                <div class="service-detail">
+                    <div class="service-image">
+                        <div class="image-frame">
+                            <img src="https://images.unsplash.com/photo-1588492069485-d05b56b2831d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Criminal Defense">
+                            <div class="image-badge">
+                                <i class="ri-shield-check-line"></i>
+                                <span>Legal Defense</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-header">
+                            <h3>Criminal Defense</h3>
+                            <div class="service-rating">
+                                <div class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <span>5.0/5 Client Rating</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Aggressive defense representation when your rights and freedom are at stake. Our criminal defense team has a proven track record of achieving favorable outcomes in complex criminal cases.
+                        </p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Felony & Misdemeanor Defense</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>DUI/DWI Representation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>White Collar Crime Defense</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Appeals & Post-Conviction Relief</span>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#criminal" class="btn btn-outline">
+                                <span>Learn More</span>
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                            <a href="contact.html" class="btn btn-primary">
+                                <i class="ri-calendar-check-line"></i>
+                                <span>Schedule Consultation</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Consultation -->
+            <div class="service-tab-content" id="consultation">
+                <div class="service-detail">
+                    <div class="service-image">
+                        <div class="image-frame">
+                            <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Legal Consultation">
+                            <div class="image-badge">
+                                <i class="ri-chat-3-line"></i>
+                                <span>Expert Advice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-header">
+                            <h3>Legal Consultation</h3>
+                            <div class="service-rating">
+                                <div class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                                <span>4.9/5 Client Rating</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Expert legal advice tailored to your specific situation. Our initial consultations provide clarity, strategic direction, and peace of mind as you navigate complex legal challenges.
+                        </p>
+                        
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Initial Case Evaluation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Legal Strategy Development</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Document Review & Analysis</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <span>Risk Assessment & Prevention</span>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#consultation" class="btn btn-outline">
+                                <span>Learn More</span>
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                            <a href="contact.html" class="btn btn-primary">
+                                <i class="ri-calendar-check-line"></i>
+                                <span>Schedule Consultation</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Process Section -->
+<section class="process-section bg-light">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">Our Process</span>
+            </div>
+            <br>
+            <h2 class="section-title">How We Work <span class="accent-text">For You</span></h2>
+            <p class="section-subtitle">A structured approach to ensure exceptional legal representation and client satisfaction</p>
+        </div>
+
+        <div class="process-timeline">
+            <div class="process-line">
+                <div class="line-progress"></div>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>01</span>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="ri-chat-3-line"></i>
+                        </div>
+                        <h3>Initial Consultation</h3>
+                        <p>We begin with a comprehensive discussion to understand your situation, goals, and concerns.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>02</span>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="ri-search-line"></i>
+                        </div>
+                        <h3>Case Analysis</h3>
+                        <p>Thorough examination of your case details, evidence, and legal precedents to build a strong foundation.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>03</span>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="ri-strategy-line"></i>
+                        </div>
+                        <h3>Strategy Development</h3>
+                        <p>Crafting a personalized legal strategy designed to achieve the best possible outcome for your situation.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>04</span>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="ri-scales-3-line"></i>
+                        </div>
+                        <h3>Execution & Representation</h3>
+                        <p>Aggressive yet strategic implementation of your legal plan with expert representation at every stage.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">
+                        <span>05</span>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="ri-check-double-line"></i>
+                        </div>
+                        <h3>Resolution & Follow-up</h3>
+                        <p>Securing favorable outcomes and providing ongoing support to ensure long-term satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="cta-banner">
+    <div class="container">
+        <div class="banner-content">
+            <div class="banner-text">
+                <h2>Ready to Protect Your Rights?</h2>
+                <p>Contact us today for a confidential consultation with our experienced legal team.</p>
+            </div>
+            <div class="banner-actions">
+                <a href="tel:+11234567890" class="btn btn-light">
+                    <i class="ri-phone-line"></i>
+                    <span>Call Now: (123) 456-7890</span>
+                </a>
+                <a href="contact.html" class="btn btn-outline-light">
+                    <i class="ri-mail-line"></i>
+                    <span>Email Inquiry</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add this after the CTA banner section -->
+
+<!-- Team Preview Section -->
+<section class="team-section section-padding">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">Our Team</span>
+            </div>
+            <h2 class="section-title">Meet Our Legal <span class="accent-text">Experts</span></h2>
+            <p class="section-subtitle">Dedicated professionals with extensive experience across all areas of law</p>
+        </div>
+
+        <div class="team-grid">
+            <!-- Attorney 1 -->
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sarah Williamson">
+                    <div class="team-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Profile">
+                            <i class="ri-profile-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <div class="team-details">
+                        <h3>Sarah Williamson</h3>
+                        <span class="team-position">Managing Partner</span>
+                        <p class="team-bio">Specializes in corporate law with over 20 years of experience in business transactions and mergers.</p>
+                    </div>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-number">250+</span>
+                            <span class="stat-label">Cases Won</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+                    <a href="team.html#sarah" class="team-link">
+                        <span>View Profile</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Attorney 2 -->
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="James Rodriguez">
+                    <div class="team-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Profile">
+                            <i class="ri-profile-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <div class="team-details">
+                        <h3>James Rodriguez</h3>
+                        <span class="team-position">Senior Litigator</span>
+                        <p class="team-bio">Expert in civil litigation with a track record of successful high-stakes courtroom victories.</p>
+                    </div>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Trials</span>
+                        </div>
+                    </div>
+                    <a href="team.html#james" class="team-link">
+                        <span>View Profile</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Attorney 3 -->
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="https://images.unsplash.com/photo-1556157382-2eda3e8a9944?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Michael Chen">
+                    <div class="team-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Profile">
+                            <i class="ri-profile-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <div class="team-details">
+                        <h3>Michael Chen</h3>
+                        <span class="team-position">Criminal Defense Attorney</span>
+                        <p class="team-bio">Aggressive defense attorney with expertise in complex criminal cases and appeals.</p>
+                    </div>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">Case Success</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">12</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                    <a href="team.html#michael" class="team-link">
+                        <span>View Profile</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Attorney 4 -->
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Emily Thompson">
+                    <div class="team-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Profile">
+                            <i class="ri-profile-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <div class="team-details">
+                        <h3>Emily Thompson</h3>
+                        <span class="team-position">Family Law Specialist</span>
+                        <p class="team-bio">Compassionate attorney specializing in divorce, child custody, and family mediation.</p>
+                    </div>
+                    <div class="team-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                    <a href="team.html#emily" class="team-link">
+                        <span>View Profile</span>
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-cta">
+            <a href="team.html" class="btn btn-outline">
+                <i class="ri-team-line"></i>
+                <span>Meet Full Team</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section bg-light">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-label">
+                <span class="label-line"></span>
+                <span class="label-text">Testimonials</span>
+            </div>
+            <h2 class="section-title">What Our Clients <span class="accent-text">Say</span></h2>
+            <p class="section-subtitle">Trusted by individuals and businesses for our commitment to excellence</p>
+        </div>
+
+        <div class="testimonials-slider">
+            <div class="testimonials-track">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"PeaceMakers provided exceptional representation during our company's acquisition. Their attention to detail and strategic advice saved us significant time and resources."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <h4>Michael Roberts</h4>
+                            <span>CEO, TechCorp Solutions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"The family law team handled my custody case with compassion and professionalism. They were always available to answer my questions during a difficult time."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DC</div>
+                        <div class="author-info">
+                            <h4>David Chen</h4>
+                            <span>Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"I was facing serious charges and PeaceMakers fought tirelessly for my case. Their dedication resulted in a favorable outcome I didn't think was possible."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Their corporate legal team helped us navigate complex international contracts. Their expertise was invaluable for our global expansion."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RA</div>
+                        <div class="author-info">
+                            <h4>Robert Anderson</h4>
+                            <span>Founder, Global Innovations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-controls">
+                <button class="testimonial-prev" aria-label="Previous testimonial">
+                    <i class="ri-arrow-left-line"></i>
+                </button>
+                <div class="testimonials-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                </div>
+                <button class="testimonial-next" aria-label="Next testimonial">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA Section -->
+<section class="final-cta">
+    <div class="container">
+        <div class="cta-content-wrapper">
+            <div class="cta-text">
+                <h2>Ready to Get Started?</h2>
+                <p>Contact us today for a confidential consultation. Our experienced legal team is ready to help you navigate your legal challenges with confidence.</p>
+            </div>
+            <div class="cta-actions">
+                <a href="contact.html" class="btn btn-primary btn-large">
+                    <i class="ri-calendar-check-line"></i>
+                    <span>Schedule Free Consultation</span>
+                </a>
+                <div class="cta-contact">
+                    <a href="tel:+11234567890" class="contact-link">
+                        <i class="ri-phone-line"></i>
+                        <span>(123) 456-7890</span>
+                    </a>
+                    <a href="mailto:info@peacemakerslegal.com" class="contact-link">
+                        <i class="ri-mail-line"></i>
+                        <span>info@peacemakerslegal.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+    
+</body>
+</html>
